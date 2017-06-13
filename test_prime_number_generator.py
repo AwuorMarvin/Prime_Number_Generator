@@ -19,8 +19,8 @@ class PrimeGeneratorTest(unittest.TestCase):
 
     def test_function_generates_right_numbers_btwn_1_100(self):
         """Confirms the prime values generated from 1 to 100"""
-         result = prime_number_generator(100)
-         self.assertTrue([2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97])
+        result = prime_number_generator(100)
+        self.assertTrue([2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97])
     def test_function_handles_zero_correctly(self):
         """Ensures that zero is handled correctly"""
         result = prime_number_generator(0)
