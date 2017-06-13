@@ -8,5 +8,4 @@ def prime_number_generator(maximum):
             else:
                 print(num)
                 ls.append(num)
-
     return ls
